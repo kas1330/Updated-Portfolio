@@ -3,6 +3,18 @@ body {
     background-color: #cccccc;
    }
 
-h1 {
+.personalInfo {
     text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
 }
+
+/* .listOptions {
+    text-align: center;
+
+} */
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+  }
