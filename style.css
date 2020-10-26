@@ -14,7 +14,10 @@ body {
 
 } */
 
-.navbar-nav {
-    display: flex;
-    justify-content: space-between;
+.navbar-nav a {
+    color: blue;
+  }
+
+  a ::before {
+    padding-left: 100px;
   }
