@@ -23,8 +23,9 @@ body {
   } */
 
   .box{
-      background-color: #cccccc;
+      /* background-color: #cccccc; */
       /* opacity: 50%; */
+      background-color: rgba(236, 239, 243, 0.5);
   }
 
   .aboutMe{
