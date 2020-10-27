@@ -14,10 +14,19 @@ body {
 
 } */
 
-.navbar-nav a {
+/* .navbar-nav a {
     color: blue;
+  } */
+
+  /* a ::before {
+    padding-left: 100px;
+  } */
+
+  .box{
+      background-color: #cccccc;
+      /* opacity: 50%; */
   }
 
-  a ::before {
-    padding-left: 100px;
+  .aboutMe{
+      opacity: 100%;
   }
