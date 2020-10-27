@@ -14,9 +14,9 @@ body {
 
 } */
 
-/* .navbar-nav a {
-    color: blue;
-  } */
+ .navbar{
+    background-color: rgba(236, 239, 243, 0.9) !important;
+  } 
 
   /* a ::before {
     padding-left: 100px;
@@ -25,9 +25,19 @@ body {
   .box{
       /* background-color: #cccccc; */
       /* opacity: 50%; */
-      background-color: rgba(236, 239, 243, 0.5);
+      background-color: rgba(236, 239, 243, 0.9);
   }
 
   .aboutMe{
       opacity: 100%;
+  }
+
+  .textAboutMe{
+      padding: 5em;
+      text-align: center;
+  }
+
+  .nav-link{
+      font-size: 20px !important;
+      padding-left: 10vw !important;
   }
