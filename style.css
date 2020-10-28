@@ -29,9 +29,9 @@ body {
       background-color: rgba(236, 239, 243, 0.9);
   }
 
-  .aboutMe{
+  /* .aboutMe{
       opacity: 100%;
-  }
+  } */
 
   .textAboutMe{
       padding: 5em;
@@ -60,3 +60,17 @@ body {
       padding-top: 5em;
   }
 
+  .btnDiv{
+      padding-top: 2em;
+      padding-bottom: 5em;
+  }
+
+
+  .fa-github{
+      color: black;
+  }
+
+  .socialMedia{
+      padding-top: 2em;
+      padding-bottom: 2em;
+  }
