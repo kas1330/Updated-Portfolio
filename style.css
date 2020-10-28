@@ -40,6 +40,8 @@ body {
 
   .nav-link{
       font-size: 20px !important;
+      font-family: 'Roboto Mono', monospace !important;
+      font-weight: 100 Thin !important;
       padding-left: 10vw !important;
   }
 
@@ -47,11 +49,14 @@ body {
       text-align: center;
       font-family: 'Roboto Mono', monospace;
       font-weight: 400;
+      padding-top: 1em;
   }
 
   .homeMessage {
       text-align: center;
       font-size: 1em;
-      
+      font-family: 'Roboto Mono', monospace;
+      font-weight: 100 Thin;
+      padding-top: 5em;
   }
 
