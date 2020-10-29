@@ -9,6 +9,7 @@ var width = window.innerWidth;
 
 console.log('Height: ', height, 'Width: ', width);
 
+
 if(width <= 995){
     header.classList.add('hidden');
     header2.classList.add('hidden');
