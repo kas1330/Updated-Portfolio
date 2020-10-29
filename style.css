@@ -28,10 +28,11 @@ body {
   }
 
   .nav-link{
-      font-size: 20px !important;
+      font-size: 1em !important;
       font-family: 'Roboto Mono', monospace !important;
       font-weight: 100 Thin !important;
-      padding-left: 10vw !important;
+      padding-left: 5vw !important;
+      padding-right: 5vw !important;
   }
 
   .welcomeMsg {
@@ -101,5 +102,9 @@ body {
     font-size: 1em;
     font-family: 'Roboto Mono', monospace;
     font-weight: 100 Thin;
+  }
+
+  .hidden{
+    display: none;
   }
 
