@@ -10,18 +10,10 @@ body {
     font-weight: 500;
 }
 
-/* .listOptions {
-    text-align: center;
-
-} */
 
  .navbar{
     background-color: rgba(236, 239, 243, 0.9) !important;
   } 
-
-  /* a ::before {
-    padding-left: 100px;
-  } */
 
   .box{
       /* background-color: #cccccc; */
@@ -29,9 +21,6 @@ body {
     background-color: rgba(236, 239, 243, 0.9) !important;
   }
 
-  /* .aboutMe{
-      opacity: 100%;
-  } */
 
   .textAboutMe{
       padding: 5em;
@@ -98,5 +87,9 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-weight: 100 Thin;
     padding-top: 2em;
+  }
+
+  .imgRow{
+      text-align: center;
   }
 
