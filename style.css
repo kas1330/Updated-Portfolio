@@ -1,4 +1,4 @@
-/* Lauout */
+/* Layout */
 body {
     background-image: url("computer.jpg");
     /* background-color: #cccccc; */
@@ -8,6 +8,16 @@ body {
   main {
     height: calc(100vh - 334px);
   }
+
+  /* footer{
+    position: fixed;
+    background-color: rgba(236, 239, 243, 0.9);
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+  } */
+
+  
 
 .personalInfo {
     text-align: center;
@@ -37,8 +47,9 @@ body {
       font-size: 1em !important;
       font-family: 'Roboto Mono', monospace !important;
       font-weight: 100 Thin !important;
-      padding-left: 50% !important;
-      padding-right: 50% !important;
+      /* padding-left: 50% !important;
+      padding-right: 50% !important; */
+      justify-content: space-around !important;
   }
 
   .welcomeMsg {
@@ -78,7 +89,7 @@ body {
 
   .madeBy {
     position: fixed;
-    /* left: 0; */
+    
     bottom: 0;
     width: 100%;
     color:black;
@@ -117,5 +128,10 @@ body {
 
   .hidden{
     display: none;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
   }
 
