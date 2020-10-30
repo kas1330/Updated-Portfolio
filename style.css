@@ -1,7 +1,13 @@
+/* Lauout */
 body {
     background-image: url("computer.jpg");
     /* background-color: #cccccc; */
+    min-height: 100vh;
    }
+
+  main {
+    height: calc(100vh - 334px);
+  }
 
 .personalInfo {
     text-align: center;
@@ -31,8 +37,8 @@ body {
       font-size: 1em !important;
       font-family: 'Roboto Mono', monospace !important;
       font-weight: 100 Thin !important;
-      padding-left: 5vw !important;
-      padding-right: 5vw !important;
+      padding-left: 50% !important;
+      padding-right: 50% !important;
   }
 
   .welcomeMsg {
