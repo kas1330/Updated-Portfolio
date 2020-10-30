@@ -18,7 +18,7 @@ body {
   } */
 
   
-
+/* Main styling every page */
 .personalInfo {
     text-align: center;
     color: white;
@@ -26,79 +26,77 @@ body {
     font-weight: 500;
 }
 
+.myName{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100 Thin;
+}
 
- .navbar{
-    background-color: rgba(236, 239, 243, 0.9) !important;
-  } 
+.hidden{
+  display: none;
+}
 
-  .box{
-      /* background-color: #cccccc; */
-      /* opacity: 50%; */
-    background-color: rgba(236, 239, 243, 0.9) !important;
-  }
+.navbar{
+   background-color: rgba(236, 239, 243, 0.9) !important;
+ } 
 
+ .box{
+    /* background-color: #cccccc; */
+     /* opacity: 50%; */
+   background-color: rgba(236, 239, 243, 0.9) !important;
+ }
 
-  .textAboutMe{
-      padding: 5em;
-      text-align: center;
-  }
+ .nav-link{
+   font-size: 1em !important;
+   font-family: 'Roboto Mono', monospace !important;
+   font-weight: 100 Thin !important;
+   /* padding-left: 50% !important;
+   padding-right: 50% !important; */
+   justify-content: space-around !important;
+}
 
-  .nav-link{
-      font-size: 1em !important;
-      font-family: 'Roboto Mono', monospace !important;
-      font-weight: 100 Thin !important;
-      /* padding-left: 50% !important;
-      padding-right: 50% !important; */
-      justify-content: space-around !important;
-  }
-
-  .welcomeMsg {
-      text-align: center;
-      font-family: 'Roboto Mono', monospace;
-      font-weight: 400;
-      padding-top: 1em;
-  }
-
-  .homeMessage {
-      text-align: center;
-      font-size: 1em;
-      font-family: 'Roboto Mono', monospace;
-      font-weight: 100 Thin;
-      padding-top: 5em;
-  }
-
-  .btnDiv{
-      padding-top: 2em;
-      padding-bottom: 5em;
-  }
-
-  .btn {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-  }
+.welcomeMsg {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  padding-top: 1em;
+}
 
 
-  .fa-github{
-      color: black;
-  }
+.homeMessage {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100 Thin;
+  padding-top: 5em;
+}
 
-  .socialMedia{
-      padding-top: 3em;
-      padding-bottom: 2em;
-  }
+/* Current footer styling  */
+.madeBy {
+  position: fixed;
+  
+  bottom: 0;
+  width: 100%;
+  color:black;
+  background-color: rgba(236, 239, 243, 0.9);
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+}
 
-  .madeBy {
-    position: fixed;
-    
-    bottom: 0;
-    width: 100%;
-    color:black;
-    background-color: rgba(236, 239, 243, 0.9);
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-  }
 
+
+/* Home page styling */
+.btn {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+}
+
+.btnDiv{
+    padding-top: 2em;
+    padding-bottom: 5em;
+ }
+
+/* Contact me styling  */
   .contactInfo{
     text-align: center;
     font-size: 1.25em;
@@ -107,6 +105,7 @@ body {
     padding-top: 2em;
   }
 
+  /* About me styling  */
   .imgRow{
       text-align: center;
   }
@@ -121,17 +120,14 @@ body {
     font-weight: 100 Thin;
   }
 
-.myName{
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 100 Thin;
+  /* GitHub and LinkedIn logos */
+  .flex-container {
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+
+ .fa-github{
+   color: black;
 }
 
-  .hidden{
-    display: none;
-  }
-
-  .flex-container {
-    display: flex;
-    justify-content: space-around;
-  }
 
