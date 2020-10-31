@@ -10,11 +10,10 @@ body {
   }
 
   /* footer{
-    position: fixed;
-    background-color: rgba(236, 239, 243, 0.9);
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
   } */
 
   
@@ -29,6 +28,7 @@ body {
 .myName{
   font-family: 'Roboto Mono', monospace;
   font-weight: 100 Thin;
+  color: black;
 }
 
 .hidden{
@@ -96,6 +96,14 @@ body {
     padding-bottom: 5em;
  }
 
+ /* Portfolio styling  */
+ .portMsg{
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100 Thin;
+  padding-top: 3em;
+ }
 /* Contact me styling  */
   .contactInfo{
     text-align: center;
