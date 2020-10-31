@@ -7,6 +7,7 @@ body {
 
   main {
     height: calc(100vh - 334px);
+    overflow: auto;
   }
 
   /* footer{
@@ -54,6 +55,12 @@ body {
    justify-content: space-around !important;
 }
 
+.navbar-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .welcomeMsg {
   text-align: center;
   font-family: 'Roboto Mono', monospace;
@@ -70,10 +77,12 @@ body {
   padding-top: 5em;
 }
 
+.row{
+  justify-content: center;
+}
+
 /* Current footer styling  */
 .madeBy {
-  position: fixed;
-  
   bottom: 0;
   width: 100%;
   color:black;
