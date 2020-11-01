@@ -5,4 +5,4 @@ Deployed Application: https://kas1330.github.io/Updated-Portfolio/
 
 Repo: https://github.com/kas1330/Updated-Portfolio
 
-<img src='screenshotPortfolio.PNG' alt='Portfolio page screenshot'>
+<img src='images-docs/screenshotPortfolio.PNG' alt='Portfolio page screenshot'>
