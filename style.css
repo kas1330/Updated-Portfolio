@@ -38,6 +38,7 @@ body {
 
 .navbar{
    background-color: rgba(236, 239, 243, 0.9) !important;
+   padding-bottom: 1em !important;
  } 
 
  .box{
@@ -90,6 +91,10 @@ body {
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
+  /* padding-top: 1em;
+  padding-bottom: 1em; */
+  /* margin-top: 2em;
+  margin-bottom: 2em; */
 }
 
 
