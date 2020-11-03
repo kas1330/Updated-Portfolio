@@ -6,7 +6,7 @@ body {
    }
 
   main {
-    height: calc(100vh - 334px);
+    height: calc(100vh - 404px);
     overflow: auto;
   }
 
@@ -80,6 +80,12 @@ body {
 
 .row{
   justify-content: center;
+  margin:0 !important;
+}
+
+.container{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 /* Current footer styling  */
